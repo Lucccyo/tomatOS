@@ -1,8 +1,8 @@
 # TomatOS
 
 ## Commands
-`$ nasm -f bin boot.asm` to compile the `boot.asm` into binary file.
-`$ ndisasm boot` prints a disassembly listing of the binary file infile.
+`$ nasm -f bin ./boot.asm -o ./boot.bin` to compile the `boot.asm` into binary file.
+`$ ndisasm boot.bin` prints a disassembly listing of the binary file infile.
 `$ qemu-system-x86_64 -hda boot` to execute a virtual machine x86-64 using `boot` as hard disk.
 
 ## Blabla
